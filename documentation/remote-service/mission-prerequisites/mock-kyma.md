@@ -12,7 +12,7 @@
 
 # Systems and Accounts
 
-* If you don't have an SAP S/4HANA Cloud system, you can complete [this](./../install-mock-server/README.md) tutorial by installing a mock server. For the mock server, you would need 256MB of Cloud Foundry runtime.
+* Complete [this](./../install-mock-server/README.md) tutorial by installing a mock server. For the mock server, you would need 256MB of Cloud Foundry runtime.
 
 
 
