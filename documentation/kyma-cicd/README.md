@@ -326,15 +326,20 @@ Here you'll need to provide the **Container Image Name** and **Tag** along with 
     ```
 - Kubernetes Namespace: **incidents-namespace**
 - Helm Release Name: **incident-management**
-![deployToKyma](./cicd42.png)
+
+    Leave the **Helm Value File** field empty.
+
+    ![deployToKyma](./cicd42.png)
 
     Now click on the **+** corresponding to the **Helm Values**. Enter the following details to set a file parameter.
-    - Helm Value Path: **xsuaa.jsonParameters**
-    - Value: **xs-security.json**
-    - Source: **file**
-   
+
+- Helm Value Path: **xsuaa.jsonParameters**
+- Value: **xs-security.json**
+- Source: **file**
+    
     Click on **OK**.
-![helmValues](./cicd43.png)
+
+    ![helmValues](./cicd43.png)
 
 14. Finally click on **Create**.
 
