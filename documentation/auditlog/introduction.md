@@ -21,3 +21,9 @@ There are predefined audit categories, which represent the kinds of actions:
 ## Solution Diagram
 
 ![Solution Diagram](./images/Solution-Diagram.png)
+
+# Options
+
+- [Implement Audit Logging using the SAP Audit Log Service and deploy to the SAP BTP Cloud Foundry Runtime](./audit-logging-cf.md)
+- [Implement Audit Logging using the SAP Audit Log Service and deploy to the SAP BTP Kyma Runtime](./audit-logging-kyma.md)
+
