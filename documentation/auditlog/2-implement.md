@@ -154,7 +154,3 @@ The steps above is all you need to automatically log personal data-related event
       cds watch
     ```
 5. Send the requests and observe the response having logs from `[audit-log]` with `PersonalDataModified` and `SensitiveDataRead` events.
-
-## Next Step
-Now you have implemented audit logging, tested the application locally and it's time to deploy it to SAP BTP.
-[Deploy to SAP BTP](./3-deploy-to-btp.md). 

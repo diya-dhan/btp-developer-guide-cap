@@ -1,4 +1,4 @@
-# Option 2 - Deploy to Kyma
+# Deploy to Kyma
 
 ## Build the images
 
