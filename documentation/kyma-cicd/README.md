@@ -322,7 +322,7 @@ Provide the **Container Image Name** and **Tag** along with the **Subdirectory P
 13. Scroll to the **Release** stage and toggle it as **ON** and enter the below details under **Deploy to Kyma**.
 - Kubernetes Configuration Credential: **kube-config**
     ```
-    If your kyma cluster credentials are created under a different name, ensure to modify this parameter accordingly
+    If your Kyma cluster credentials are created under a different name, ensure to modify this parameter accordingly
     ```
 - Kubernetes Namespace: **incidents-namespace**
 - Helm Release Name: **incident-management**
