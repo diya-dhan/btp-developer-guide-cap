@@ -268,9 +268,9 @@ For your pipeline to be able to push and pull images from your docker repository
 8. Next, under **General Parameters**, provide **chart** as the input for **Helm Chart Path**.
 ![helmChart](./cicd17.png)
 
-9. Now you'll need to add the names of all the images required. For each image, click on **+**.
+9. Аdd the names of all the images required. For each image, click on **+**.
 ![addImages](./cicd18.png)
-Here you'll need to provide the **Container Image Name** and **Tag** along with the **Subdirectory Path**. You may leave the **Helm Value Tag Path** and **Repository Path** fields empty.
+Provide the **Container Image Name** and **Tag** along with the **Subdirectory Path**. You may leave the **Helm Value Tag Path** and **Repository Path** fields empty.
 ![ContainerImage](./cicd37.png)
 
     Below are the details to be provided for each image. Ensure to change the image names with your docker registry name wherever mentioned. The preferred image versions must also be mentioned wherever relevant.
