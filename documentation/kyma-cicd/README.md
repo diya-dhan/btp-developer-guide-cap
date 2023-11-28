@@ -262,7 +262,7 @@ For your pipeline to be able to push and pull images from your docker repository
   - Pipeline: Kyma Runtime
  ![configure pipeline](./cicd20.png)
 
-7. Now you need to modify the **Stages** section. First choose **Job Editor** as your **Configuration Mode** from the dropdown. 
+7. Now you need to modify the **Stages** section. First, choose **Job Editor** as your **Configuration Mode** from the dropdown. 
  ![sourceRepo](./cicd21.png)
 
 8. Next, under **General Parameters**, provide **chart** as the input for **Helm Chart Path**.
