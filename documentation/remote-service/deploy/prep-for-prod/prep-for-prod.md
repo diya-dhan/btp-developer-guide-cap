@@ -7,7 +7,7 @@ To use the SAP S/4HANA Cloud Extensibilty service to access the Business Partner
 
 ## Prerequisites
 
-You have set up the connectiion to an SAP S/4HANA Cloud system. See [Configure the connectivity between SAP S/4HANA Cloud and SAP BTP](../../s4hana-cloud-to-btp-connectivity/README.md). 
+You have set up the connection to an SAP S/4HANA Cloud system. See [Configure the connectivity between SAP S/4HANA Cloud and SAP BTP](../../s4hana-cloud-to-btp-connectivity/README.md). 
 
 ## Content
 
