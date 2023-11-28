@@ -5,9 +5,9 @@ For more information, see See [SAP Continuous Integration and Delivery](https://
 
 The steps below guide you through setting up your pipeline.
 
-# Prerequsite
+# Prerequsites
 1. Develop the Incident Management application following the step by step tutorial [Develop a Full-Stack CAP Application](https://developers.sap.com/group.cap-application-full-stack.html)
-2. Deployed the Incident Management application to SAP BTP Kyma Runtime following the tutorial [Deploy a Full-Stack CAP Application in SAP BTP, Kyma Runtime](https://developers.sap.com/group.deploy-full-stack-cap-kyma-runtime.html)
+2. Deploy the Incident Management application to SAP BTP Kyma Runtime following the tutorial [Deploy a Full-Stack CAP Application in SAP BTP, Kyma Runtime](https://developers.sap.com/group.deploy-full-stack-cap-kyma-runtime.html)
 
 ## Initialize a Repository in VS Code
 
@@ -24,7 +24,7 @@ In this example, we’ll be creating a repository on GitHub. You need a **GitHub
 
 3. Navigate to the project's root folder and check if file `.gitignore` is present. 
 
-4. If your project already has a .gitignore file, ensure that the following snippet is added in it. Additionally if `resources/` is mentioned in the file, remove it. If there is no .gitignore file present create a file and add below code snippet
+4. If your project already has a .gitignore file, ensure that the following snippet is added in it. Additionally if `resources/` is mentioned in the file, remove it. If there is no .gitignore file present, create a file and add below code snippet
  
     ```
     node_modules/
@@ -208,18 +208,18 @@ For your pipeline to be able to push and pull images from your docker repository
         ...
     }
     ```
-2. Remove the following from the same package.json file
+2. Remove the following from the same `package.json` file
 
     - `rimraf` from `devDependencies`
     - `undeploy`, `build and deploy` from `scripts` 
 
-3. From the terminal run the following command:
+3. From the terminal, run the following command:
    ```
    npm add -D @sap/cds-dk
    ```
    This will add `@sap/cds-dk` as a devDependency to the same package.json file.
 
-4. Push these changes to your main branch from the **Source Control** by first staging and commiting. 
+4. Push these changes to your main branch from the **Source Control** by first staging and committing. 
 ![pushChanges](./cicd32.png)
 
 <br>
@@ -345,7 +345,7 @@ Provide the **Container Image Name** and **Tag** along with the **Subdirectory P
 
 <br>
 
-## Run the Pipeline and See Your deployment
+## Run the Pipeline and See Your Deployment
 
 1. Now you can test your job manually for the first time after creation. Go back to the **SAP Continuous Integration and Delivery** application and navigate to the **Job** tab.
 
