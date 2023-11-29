@@ -33,7 +33,7 @@ jobs:
         mkdir sync
         cp -r ./btp-developer-guide-cap/* ./sync/
         cd sync/
-        rm -rf ./.git
+        rm -rf ./.git ./.github/workflows
         cp -r ./* ../public/btp-developer-guide-cap
     - name: Configure Git for Public GitHub
       run: |
