@@ -1,0 +1,48 @@
+name: Sync Corporate to Public GitHub
+
+on:
+ workflow_dispatch:
+    inputs:
+      commit_message:
+        description: 'Commit message'
+        required: true
+
+jobs:
+  sync:
+    runs-on: self-hosted
+
+    steps:
+    - name: Clean up workspace
+      uses: actions/checkout@v2
+      with:
+         clean: true
+    - name: Checkout Corporate Repo
+      uses: actions/checkout@v2
+      with:
+       ref: main
+    - name: Clone Public Repo
+      run: |
+        cd ..
+        rm -rf ./public
+        mkdir public | cd ./public
+        git clone https://github.com/SAP-samples/btp-developer-guide-cap.git
+    - name: Sync to Public GitHub
+      run: |
+        cd ../..
+        rm -rf sync
+        mkdir sync
+        cp -r ./btp-developer-guide-cap/* ./sync/
+        cd sync/
+        rm -rf ./.git
+        cp -r ./* ../public/btp-developer-guide-cap
+    - name: Configure Git for Public GitHub
+      run: |
+        cd ../automation-public-git-update
+        git status
+        git config user.name "reftechuser"
+        git remote set-url origin https://github.com/SAP-samples/btp-developer-guide-cap.git
+        git config --global credential.helper store  # Use Git credential helper to store credentials
+        git config credential.helper 'cache --timeout=3600'
+        git add .
+        git commit -m "${{ github.event.inputs.commit_message }}"
+        git push origin main
