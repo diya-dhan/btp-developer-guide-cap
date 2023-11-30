@@ -24,7 +24,7 @@ jobs:
       run: |
         cd ..
         rm -rf ./public
-        mkdir public | cd ./public
+        mkdir public | cd public
         git clone https://github.com/SAP-samples/btp-developer-guide-cap.git
     - name: Sync to Public GitHub
       run: |
