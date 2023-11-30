@@ -41,8 +41,8 @@ jobs:
         cd ../public/btp-developer-guide-cap
         git status
         git config user.name "reftechuser"
-        git config user.password ${{secrets.PAT_REFTECHUSER}}
-        git remote set-url origin https://github.com/SAP-samples/btp-developer-guide-cap.git
+        git config user.email "reftechuser@gmail.com"
+        git remote set-url origin https://reftechuser:${{ secrets.PAT_REFTECHUSER }}@github.com/SAP-samples/btp-developer-guide-cap.git
         git add .
         git commit -m "${{ github.event.inputs.commit_message }}"
         git push origin main
