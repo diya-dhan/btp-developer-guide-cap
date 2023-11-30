@@ -41,6 +41,7 @@ jobs:
         cd ../public/btp-developer-guide-cap
         git status
         git config user.name "reftechuser"
+        git config user.password ${{secrets.REFTECHUSER}}
         git remote set-url origin https://github.com/SAP-samples/btp-developer-guide-cap.git
         git config --global credential.helper store
         git config credential.helper 'cache --timeout=3600'
