@@ -29,7 +29,7 @@ jobs:
         git clone https://github.com/SAP-samples/btp-developer-guide-cap.git
     - name: Sync to Public GitHub
       run: |
-        cd ../..
+        cd ..
         rm -rf sync
         mkdir sync
         cp -r ./btp-developer-guide-cap/* ./sync/
