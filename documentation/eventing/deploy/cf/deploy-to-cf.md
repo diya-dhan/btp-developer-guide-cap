@@ -1,6 +1,6 @@
 # Deploy and Run the Application on Cloud Foundry with SAP S/4HANA Cloud Backend
 
-## Usage scenario
+## Usage Scenario
 
 In this chapter, you will prepare for production and deploy the project to the SAP BTP, Cloud Foundry runtime using the **cf deploy** command.
 
@@ -60,9 +60,9 @@ In this chapter, you will prepare for production and deploy the project to the S
      > Note: **system-name** is the system name you have set in the Remote Service Integration tutorial.
      The value of the **emClientId** property should have maximum length of 4 characters and should fit in the [characters: [A-Za-z0-9]; 
 
-## Deploy the application to SAP BTP, Cloud Foundry runtime
+## Deploy the Application to SAP BTP, Cloud Foundry Runtime
 
-1. In SAP Business Application Studio open a new terminal.
+1. In SAP Business Application Studio, open a new terminal.
 
 2. Make sure you are in the project folder of your application and run the following command:
 
@@ -76,6 +76,6 @@ mbt build
 cf deploy mta_archives/<mtar>
 ```
 
-You'll need to [Assign Application Roles](https://developers.sap.com/tutorials/user-role-assignment.html) before you can access the application.
+Before you can access the application, you need to [Assign Application Roles](https://developers.sap.com/tutorials/user-role-assignment.html) .
 
-Then, proceed to the [Integrate with SAP Build Workzone](https://developers.sap.com/tutorials/integrate-with-work-zone.html) tutorial to access the application in a launchpad.
+To access the application in a launchpad, proceed to the [Integrate with SAP Build Workzone](https://developers.sap.com/tutorials/integrate-with-work-zone.html) tutorial.
