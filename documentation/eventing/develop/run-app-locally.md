@@ -1,8 +1,8 @@
-# Run application locally
+# Run the Application Locally
 
 ## Introduction
 
-Before you deploy the application in SAP BTP, you can run the CAP application locally to test and ensure that your code changes are working.
+Before you deploy the application on SAP BTP, you can run the CAP application locally to test and ensure that your code changes are working.
 
 ## Procedure
 
@@ -35,7 +35,7 @@ Authorization: Basic YWxpY2U6
 ```
 >Hint: The file is auto saved in SAP Business Application Studio.
 
-4. Choose **Send Request** on the top of the file. Check if you see the following message in the terminal:
+4. Choose **Send Request** at the top of the file. Check if you see the following message in the terminal:
 
     ![Send request](./images/send-request.png)
 
