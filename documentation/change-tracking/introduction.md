@@ -4,6 +4,6 @@ The Change Tracking feature is designed to help you monitor and manage modificat
 
 # Options
 
-- [Implement Change Tracking using the <ins>@cap-js/change-tracking</ins> plugin and deploy to the SAP BTP Cloud Foundry Environment](./change-tracking-cf.md)
-- [Implement Change Tracking using the <ins>@cap-js/change-tracking</ins> plugin and deploy to the SAP BTP Kyma Environment](./change-tracking-kyma.md)
+- [Implement Change Tracking using the <ins>@cap-js/change-tracking</ins> plugin and deploy to the SAP BTP Cloud Foundry Runtime](./change-tracking-cf.md)
+- [Implement Change Tracking using the <ins>@cap-js/change-tracking</ins> plugin and deploy to the SAP BTP Kyma Runtime](./change-tracking-kyma.md)
 
