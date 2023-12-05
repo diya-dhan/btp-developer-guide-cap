@@ -24,6 +24,6 @@ There are predefined audit categories, which represent the kinds of actions:
 
 # Options
 
-- [Implement Audit Logging using the SAP Audit Log Service and deploy to the SAP BTP Cloud Foundry Runtime](./audit-logging-cf.md)
-- [Implement Audit Logging using the SAP Audit Log Service and deploy to the SAP BTP Kyma Runtime](./audit-logging-kyma.md)
+- [Implement Audit Logging Using the SAP Audit Log Service and Deploy to the SAP BTP Cloud Foundry Runtime](./audit-logging-cf.md)
+- [Implement Audit Logging Using the SAP Audit Log Service and Deploy to the SAP BTP Kyma Runtime](./audit-logging-kyma.md)
 
