@@ -24,9 +24,9 @@ In this chapter, you will prepare for production and deploy the project to the S
             - name: incident-management-messaging
               type: org.cloudfoundry.managed-service
               parameters:
-              service: enterprise-messaging
-              service-plan: default
-              path: ./event-mesh.json`
+                service: enterprise-messaging
+                service-plan: default
+                path: ./event-mesh.json`
          ```
     - Adds the following entry in the `requires` section of `incident-management-srv` module:
 
@@ -40,10 +40,10 @@ In this chapter, you will prepare for production and deploy the project to the S
     - name: incidents-messaging-cloud
         type: org.cloudfoundry.managed-service
         parameters:
-        path: ./s4cems.json
-        service: s4-hana-cloud
-        service-plan: messaging
-        system-name: <enter-your-s4-system-name>
+          path: ./s4cems.json
+          service: s4-hana-cloud
+          service-plan: messaging
+          system-name: <enter-your-s4-system-name>
     ```
 
     > Note: **system-name** is the system name you have set in the Remote Service Integration tutorial.
@@ -67,13 +67,13 @@ In this chapter, you will prepare for production and deploy the project to the S
 2. Make sure you are in the project folder of your application and run the following command:
 
 ```bash
-mbt build
+    mbt build
 ```
 
 3. To deploy the already prepared MTA archive, run the following command:
 
 ```bash
-cf deploy mta_archives/<mtar>
+    cf deploy mta_archives/<mtar>
 ```
 
 You'll need to [Assign Application Roles](https://developers.sap.com/tutorials/user-role-assignment.html) before you can access the application.
