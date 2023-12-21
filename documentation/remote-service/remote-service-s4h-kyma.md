@@ -1,6 +1,5 @@
 # Connect to a Remote Service Using the SAP Destination Service (SAP BTP, Kyma Runtime and SAP S/4HANA Cloud)
 
-1. [Introduction](./introduction.md)
 1. [Prerequisites](./mission-prerequisites/s4h-kyma.md)
 2. [Get the Business Partner API](./explore-apis-and-events/README.md)
 3. [Configure the connectivity between SAP S/4HANA Cloud and SAP BTP](./s4hana-cloud-to-btp-connectivity/README.md)
