@@ -7,6 +7,6 @@
 5. [Extend the Incident Management аpplication](./develop/extend-app.md)
 6. [Run a developer test with mock data](./develop/test-with-mock.md)
 7. [Prepare the app for production](./deploy/prep-for-prod/prep-for-prod.md)
-8. [Deploy to SAP BTP Cloud Foundry runtime with mock server](./deploy/kyma/deploy-to-kyma.md)
+8. [Deploy to SAP BTP Cloud Foundry runtime with SAP S/4HANA Cloud](./deploy/kyma/deploy-to-cf.md)
 9. [Test the end to end flow](./test-the-application/test-the-app.md)
  
